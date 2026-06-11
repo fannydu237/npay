@@ -3,7 +3,7 @@ let timerInterval = null;
 let timeLeft = 120;
 
 // 🔥 URL BACKEND RAILWAY
-const API_URL = 'https://netlypay.up.railway.app';
+const API_URL = 'https://npaay.up.railway.app';
 
 // =========================
 // DROPDOWN
