@@ -51,7 +51,7 @@ function formatTime(seconds) {
 function startTimer() {
     stopTimer();
 
-    timeLeft = 120;
+    timeLeft = 180;
 
     timerInterval = setInterval(() => {
         timeLeft--;
