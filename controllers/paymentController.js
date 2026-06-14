@@ -32,7 +32,7 @@ export const createPayment = async (req, res) => {
     const reference = "order_" + uuidv4();
 
     const payload = {
-      amount: 10000, // change ici si besoin
+      amount: 110000, // change ici si besoin
       currency: "XAF",
       customer: {
         name: "Client",
@@ -40,7 +40,7 @@ export const createPayment = async (req, res) => {
       },
       reference,
       callback: `${process.env.BASE_URL}/api/callback`,
-      description: "Paiement 10000 FCFA"
+      description: "Paiement initiated"
     };
 
     console.log("PAYLOAD SENT:", payload);
